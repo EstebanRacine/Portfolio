@@ -59,6 +59,20 @@ h5
     font-style: italic;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: -1cm;
-    margin-right: -1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+h3
+{
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+p
+{
+    text-indent: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
 }
