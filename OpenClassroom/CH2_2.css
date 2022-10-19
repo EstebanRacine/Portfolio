@@ -1,0 +1,18 @@
+h1 {
+    font-size: 20px;
+    color: red;
+    font-family: Arial;
+    background: yellow;
+    text-align: center;
+}
+
+.start
+{
+    font-size: 16px;
+    font-family: Arial;
+    color: rebeccapurple;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
