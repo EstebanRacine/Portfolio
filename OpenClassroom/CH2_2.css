@@ -8,7 +8,7 @@
 h1 {
     font-size: 20px;
     color: red;
-    font-family: Arial;
+    font-family: "Arial";
     background: yellow;
     text-align: center;
 }
@@ -16,7 +16,7 @@ h1 {
 .start
 {
     font-size: 16px;
-    font-family: Arial;
+    font-family: "Arial";
     color: rebeccapurple;
     text-align: center;
 
@@ -47,7 +47,7 @@ h5:before {
 h5
 {
     font-size: 15px;
-    font-family: Arial;
+    font-family: "Arial";
     color: blue;
     font-weight: bold;
 }
@@ -87,8 +87,10 @@ p
 
 .Fin
 {
-    text-indent: -12px;
     margin-top: 10px;
     margin-bottom: 20px;
     color: blue;
+}
+.Fin:before{
+    content: "• ";
 }
