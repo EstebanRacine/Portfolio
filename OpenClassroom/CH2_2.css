@@ -84,3 +84,11 @@ p
     margin-bottom: 20px;
     text-indent: 10px;
 }
+
+.Fin
+{
+    text-indent: -12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: blue;
+}
