@@ -90,7 +90,9 @@ p
     margin-top: 10px;
     margin-bottom: 20px;
     color: deepskyblue;
+    text-indent: -12px;
 }
 .Fin:before{
-    content: "• ";
+    content: "•";
+    text-indent: -12px;
 }
