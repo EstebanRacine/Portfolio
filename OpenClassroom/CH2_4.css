@@ -1,4 +1,36 @@
 body
 {
+    color: white;
     background-color: #bbbdff;
+    text-shadow: 2px 2px 4px black;
+}
+
+.Art1
+{
+    background: url("/images/pingouin.png") no-repeat, palegoldenrod;
+    background-clip: border-box;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+.Art2
+{
+    background: url("/images/pingouin.png") no-repeat, lightpink;
+    background-clip: padding-box;
+    background-size: contain;
+    background-origin: padding-box;
+}
+
+.Art3
+{
+    background: url("/images/pingouin.png") no-repeat, lightgreen;
+    background-clip: content-box;
+    background-size: contain;
+    background-origin: content-box;
+    padding: 7px;
+}
+
+article
+{
+    border: 3px rebeccapurple dashed;
 }
