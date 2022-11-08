@@ -1,0 +1,22 @@
+*
+{
+    color: white;
+}
+
+h1
+{
+    color: purple;
+}
+
+body
+{
+    background-image: url("images/pingouin.png"), url("images/feuilles.png");
+    background-repeat: no-repeat, repeat;
+    background-position: top center;
+    background-attachment: fixed, scroll;
+}
+
+a
+{
+    color: blue;
+}
