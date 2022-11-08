@@ -10,10 +10,7 @@ h1
 
 body
 {
-    background-image: url("images/pingouin.png"), url("images/feuilles.png");
-    background-repeat: no-repeat, repeat;
-    background-position: top center;
-    background-attachment: fixed, scroll;
+    background: url("images/pingouin.png") no-repeat top center fixed, url("images/feuilles.png") repeat scroll;
 }
 
 a
