@@ -2,9 +2,16 @@ body
 {
     background-color: black;
     color: white;
-    margin-right: 7cm;
-    margin-left: 7cm;
+
 }
+
+header
+{
+    margin-left: -0.1cm;
+    margin-top: -0.25cm;
+}
+
+
 
 a{
     color: white;
@@ -16,18 +23,24 @@ a:hover{
 
 .menu
 {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .menu li
 {
-    display: inline;
+    width: auto;
+    display: flex;
     text-align: center;
     margin-right: 25px;
 }
 
 .menu li a{
+    display: flex;
     background-color: rgba(220,20,120,0.5);
     padding: 10px 30px 10px 30px;
     border: 1px solid darkviolet;
@@ -35,15 +48,18 @@ a:hover{
 
 nav
 {
-    display: block;
+    width: 100%;
+    display: flex;
     position: fixed;
     background: black;
     block-size: auto;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin: auto;
 }
 
 
-p{
+p, h1, h2{
     text-align: justify;
+    margin-right: 7cm;
+    margin-left: 7cm;
 }
