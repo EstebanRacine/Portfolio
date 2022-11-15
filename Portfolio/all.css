@@ -122,3 +122,17 @@ h1
 {
     margin-top: 50px;
 }
+
+
+footer{
+    background: #202124;
+    width: 100%;
+    display: flex;
+    position: static;
+    block-size: auto;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
