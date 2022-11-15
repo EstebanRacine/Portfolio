@@ -1,6 +1,6 @@
 body
 {
-    background-color: black;
+    background-color: #131416;
     color: white;
 
 }
@@ -41,9 +41,9 @@ a:hover{
 
 .menu li a{
     display: flex;
-    background-color: rgba(220,20,120,0.5);
+    /*background-color: rgba(220,20,120,0.5);
     padding: 10px 30px 10px 30px;
-    border: 1px solid darkviolet;
+    border: 1px solid darkviolet;*/
 }
 
 nav
@@ -51,7 +51,7 @@ nav
     width: 100%;
     display: flex;
     position: fixed;
-    background: black;
+    background: #131416;
     block-size: auto;
     justify-content: center;
     margin: auto;
@@ -62,4 +62,11 @@ p, h1, h2{
     text-align: justify;
     margin-right: 7cm;
     margin-left: 7cm;
+}
+
+button
+{
+    background: transparent;
+    color: #fff;
+
 }
