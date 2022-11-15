@@ -1,0 +1,49 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin-right: 7cm;
+    margin-left: 7cm;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rebeccapurple;
+}
+
+.menu
+{
+    text-align: center;
+}
+
+
+.menu li
+{
+    display: inline;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.menu li a{
+    background-color: rgba(220,20,120,0.5);
+    padding: 10px 30px 10px 30px;
+    border: 1px solid darkviolet;
+}
+
+nav
+{
+    display: block;
+    position: fixed;
+    background: black;
+    block-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p{
+    text-align: justify;
+}
