@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "GodOfWar";
-    src: url("font/GODOFWAR.TTF");
+    font-family: "KG";
+    src: url("font/KGDefyingGravity.ttf");
     font-weight: normal;
 }
 @font-face {
@@ -45,11 +45,13 @@ header
 
 .Nom{
     display: block;
-    width: 5cm;
+    width: 25%;
     height: 3cm;
     flex-direction: column;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: "KG", sans-serif;
 }
 
 p{
