@@ -15,7 +15,20 @@
     font-weight: normal;
 }
 
+@keyframes ApparitionNom{
+    0% {opacity:0; margin-top:-100px;z-index: 31;}
+    20% {opacity:0.2; margin-top:-80px;z-index: 31;}
+    40% {opacity:0.4;margin-top:-60px;z-index: 31;}
+    60% {opacity:0.6;margin-top:-40px;z-index: 31;}
+    80% {opacity:0.8;margin-top: -20px;z-index: 31;}
+    100% {opacity:1;margin-top:0px;z-index: 1;}
+}
 
+@keyframes Rotation{
+    0%{}
+    50%{transform: rotate(0.5turn)}
+    100%{transform: rotate(1turn)}
+}
 
 
 body
@@ -41,26 +54,33 @@ header
     height: 100px;
     margin-left: -0.1cm;
     justify-content: center;
+    z-index: 30;
 }
+
 
 .Nom{
     display: block;
-    width: 25%;
+    /*border: 2px solid red;*/
+    text-align: center;
+    width: 80%;
     height: 3cm;
     flex-direction: column;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: "KG", sans-serif;
     color: mediumpurple;
-    font-size: 20px;
+    font-size: 25px;
+    /*position: absolute;
+    left: 50%;
+    top: 50%;*/
+    animation: 1.5s ApparitionNom linear;
+    /*transform: translate(-50%,-327%);*/
 }
 
 p{
     display: block;
     width: auto;
     height: auto;
-
 }
 
 .Principal p{
@@ -160,7 +180,10 @@ button:hover::after{
     transform: translate(-5px, -5px);
 }
 
-
+.Principal{
+    /*border: 2px solid blue;*/
+    margin-top: -1.5cm;
+}
 
 
 footer{
@@ -213,4 +236,3 @@ footer{
 ::-webkit-scrollbar-corner {
     background: #131416;
 }
-
