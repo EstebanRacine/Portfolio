@@ -17,8 +17,8 @@
 
 
 @keyframes ApparitionNom {
-    0%   { transform: scaleX(0.5); }
-    100% { transform: scaleX(1); }
+    0%   {margin-left: 10%; width:80%}
+    100% {margin-left: 100%; width: 0%}
 }
 
 
@@ -72,15 +72,23 @@ header
     font-family: "KG", sans-serif;
     color: mediumpurple;
     font-size: 25px;
-    /*position: absolute;
-    left: 50%;
-    top: 50%;*/
     animation: 1.5s DeplacementTexte linear;
-    /*transform: translate(-50%,-327%);*/
 }
 
 
 #Apparition{
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 3cm;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -10%;
+    font-family: "KG", sans-serif;
+    background: red;
+    z-index: 29;
+    color: mediumpurple;
+    font-size: 25px;
     animation: 1s linear 1.5s ApparitionNom;
 }
 
