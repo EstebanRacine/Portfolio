@@ -271,12 +271,19 @@ footer{
     text-align: justify;
 }
 
-#Contact{
+#Langue{
     display: flex;
     flex-direction: column;
-    width: 10%;
+    justify-content: center;
+    width: 23%;
     margin-right: 3%;
+
 }
+
+#France{
+    display: inline;
+}
+
 
 h2{
     margin-top: -0.5cm;
