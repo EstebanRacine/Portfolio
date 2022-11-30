@@ -276,12 +276,18 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 23%;
+    height: 2cm;
     margin-right: 3%;
-
 }
 
 #Francais, #English{
     display: inline;
+}
+
+#Langue a{
+    display: flex;
+    height: 30px;
+
 }
 
 
@@ -332,7 +338,6 @@ footer a{
 #Langue img{
     width: 15px;
     height: 15px;
-    margin-top: 10px;
 }
 
 
