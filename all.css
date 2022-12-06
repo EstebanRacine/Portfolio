@@ -276,18 +276,20 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 23%;
-    height: 2cm;
+    height: 50%;
     margin-right: 3%;
 }
 
 #Francais, #English{
     display: inline;
+    width: 100%;
+    height: 100%;
 }
 
 #Langue a{
     display: flex;
-    height: 30px;
-
+    height: 80%;
+    width: 80%;
 }
 
 
