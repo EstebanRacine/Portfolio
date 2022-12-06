@@ -291,7 +291,7 @@ footer{
 #Langue{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 23%;
     height: 55px;
 
@@ -321,8 +321,8 @@ footer a{
     justify-content: center;
     margin-left: auto;
     margin-top: 20px;
-    margin-right: auto;
-    width: 100%;
+    margin-right: 8%;
+    width: 80%;
 }
 
 #FootCenter p{
@@ -370,7 +370,7 @@ i{
     margin-bottom: 50px;
     color: mediumpurple;
     font-size: 16px;
-    font-family: "Sitka Text";
+    font-family: "Sitka Text", sans-serif;
 }
 .Work p{
     text-align: center;
@@ -389,9 +389,10 @@ i{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 8%;
+    padding-bottom: 13%;
 
 }
+
 
 
 
