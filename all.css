@@ -21,6 +21,12 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Deroos';
+    src: url("font/deroos__.ttf");
+    font-weight: normal;
+}
+
 
 @keyframes ApparitionNom {
     0%   {margin-left: 10%; width:80%; z-index: 50;}
@@ -90,7 +96,7 @@ header
     text-align: center;
     width: 80%;
     height: auto;
-    margin-top: 2%;
+    margin-top: 3%;
     flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
@@ -139,7 +145,7 @@ p{
     margin-right: auto;
     width: 85%;
     height: 100%;
-    padding-bottom: 8%;
+    padding-bottom: 6%;
 }
 
 
@@ -294,7 +300,8 @@ footer{
     justify-content: space-between;
     width: 23%;
     height: 45px;
-
+    font-family: Deroos, sans-serif;
+    font-size: 12px;
     margin-right: 3%;
 }
 
@@ -302,6 +309,7 @@ footer #Langue a{
     display: inline-block;
     width: 50px;
     height: max-content;
+    position: relative;
 }
 
 
@@ -329,7 +337,7 @@ footer a{
     margin-right: auto;
     margin-left: auto;
     font-family: "Embodial", sans-serif;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #LiensApplis{
@@ -343,6 +351,9 @@ footer a{
 
 #mail, #tel, #git{
     fill: mediumpurple;
+    margin-left: -1%;
+    margin-top: -1%;
+    margin-bottom: 1%;
 }
 
 #tel{
@@ -355,8 +366,11 @@ footer a{
 
 
 #Langue img{
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
+    top: -2px;
+    position: absolute;
+    left: 28px;
 }
 
 
@@ -404,7 +418,7 @@ i{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 255px;
+    padding-bottom: 16%;
     /*border: 2px solid white;*/
 }
 
