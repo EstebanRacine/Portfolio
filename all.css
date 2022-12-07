@@ -412,7 +412,7 @@ i{
     padding-top: 20px;
     /*border: 3px solid mediumpurple;
     border-radius: 8px;*/
-    width: 30%;
+    width: 28%;
     height: 550px;
 }
 
@@ -446,11 +446,15 @@ i{
     padding-bottom: 50px;
 }
 
-.Infos{
+.InfosExp{
     text-align: justify;
     font-size: 16px;
-    width: 80%;
+    width: 77%;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
+
+
 
 ::-webkit-scrollbar {
     height: 5px;
