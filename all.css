@@ -293,7 +293,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     width: 23%;
-    height: 55px;
+    height: 45px;
 
     margin-right: 3%;
 }
@@ -343,6 +343,10 @@ footer a{
 
 #mail, #tel, #git{
     fill: mediumpurple;
+}
+
+#tel{
+    padding-top: 3px;
 }
 
 #mail:hover, #tel:hover, #git:hover{
