@@ -222,10 +222,6 @@ nav
 }
 
 
-p, h1, h2{
-    margin-right: 10%;
-    margin-left: 10%;
-}
 
 
 
@@ -263,6 +259,11 @@ button:hover::after{
     transform: translate(-5px, -5px);
 }
 
+p, h1, h2{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
 .Principal{
     /*border: 2px solid blue;*/
     display: flex;
@@ -270,6 +271,11 @@ button:hover::after{
     margin-top: -1.5cm;
 }
 
+h2{
+    margin-top: 0;
+}
+
+/* Footer */
 
 footer{
     display: flex;
@@ -311,13 +317,6 @@ footer #Langue a{
     height: max-content;
     position: relative;
 }
-
-
-
-h2{
-    margin-top: 0;
-}
-
 
 footer a{
     text-decoration: none;
@@ -373,6 +372,7 @@ footer a{
     left: 28px;
 }
 
+/* Page en préparation */
 
 i{
     display: inline-block;
@@ -410,6 +410,10 @@ i{
     padding-bottom: 13%;
 
 }
+
+
+/* Texte et mise en page Experience */
+
 
 .PrincipalExp{
     display: flex;
@@ -477,6 +481,8 @@ i{
     font-weight: bold;
 }
 
+/* Images Experience */
+
 .ImgCertif{
     display: flex;
     justify-content: center;
@@ -503,6 +509,26 @@ i{
     height: 80px;
     border-radius: 10px;
 }
+
+/* Passions */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scrollbar */
 
 ::-webkit-scrollbar {
     height: 5px;
