@@ -512,7 +512,16 @@ i{
 
 /* Passions */
 
-
+.PrincipalPass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16%;
+    /*border: 2px solid white;*/
+}
 
 
 
