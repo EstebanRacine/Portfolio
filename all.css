@@ -514,7 +514,9 @@ i{
 
 .PrincipalPass{
     display: flex;
-    flex-direction: row;
+    width: 80%;
+    height: max-content;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -523,11 +525,43 @@ i{
     /*border: 2px solid white;*/
 }
 
+#Musique, #Theatre, #Games{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
 
+}
 
+#Musique, #Theatre{
+    border-bottom: 2px solid mediumpurple;
+}
 
+#Musique{
+    padding-top: 2cm;
+}
 
+#LogoMus, #LogoThea, #LogoGames{
+    height: max-content;
+    width: 30%;
+    font-size: 100%;
+    margin: auto 0;
+    text-align: center;
+}
+#LogoMus i, #LogoThea i, #LogoGames i{
+    margin: auto;
+}
 
+.TextPass{
+    height: max-content;
+    width: 30%;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto 0;
+}
 
 
 
