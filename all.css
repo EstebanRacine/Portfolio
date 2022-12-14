@@ -655,6 +655,7 @@ i{
 #ProfilPerso p{
     width: 80%;
     margin-left: 21px;
+    text-indent: 1cm;
 }
 
 h6{
